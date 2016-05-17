@@ -24,6 +24,8 @@ img, embed, object, video {
 
 .sub-title {
     font-size: 23px;
+    margin-top: 1px;
+    font-weight: bold;
 }
 
 .title-logo {
@@ -34,8 +36,9 @@ img, embed, object, video {
     height: 3px;
     margin-top: 0.5em;
     margin-bottom: 30 px;
-    border-width: 4px;
-    color: #2D3C49;
+    border-width: 5px;
+    border-color: #7D97AD;
+    margin-bottom: 35px;
 }
 .img-responsive {
   display: block;
