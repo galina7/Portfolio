@@ -22,6 +22,10 @@ img, embed, object, video {
     font-size: 60px;
 }
 
+.sub-title {
+    font-size: 23px;
+}
+
 .title-logo {
     margin-top: 20px;
 }
