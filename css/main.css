@@ -1,6 +1,17 @@
 body {
     margin: 0;
 }
+.container {
+    margin-right: auto;
+    margin-left: auto;
+  /*  display: flex;
+    flex-wrap: wrap;*/
+}
+
+.box{
+    width: 100%;
+}
+
 img, embed, object, video {
     max-width: 100%;
 }
@@ -10,6 +21,11 @@ img, embed, object, video {
     color: #2D3C49;
     font-weight: 300;
 }
+.text-bottom{
+    position: absolute;
+    bottom: 10px;
+}
+
 .text-muted {
     color: #7D97AD;
 }
@@ -44,6 +60,7 @@ img, embed, object, video {
   display: block;
   max-width: 100%;
   height: auto;
+  padding-right: 20px;
 }
 
 .fetured_img {
@@ -53,5 +70,7 @@ img, embed, object, video {
 }
 .fetured_img:last-of-type {
     margin-right: 0;
+}
+
 }
 
