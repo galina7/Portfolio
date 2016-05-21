@@ -2,62 +2,51 @@
 <html>
 <head>
     <title>Mockup page</title>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
-    <script type="text/javascript" src="js/jquery-2.2.1.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-
-
 </head>
 <body>
-<div class="container">
-    <div class="row">
-        <div class="col-md-6 title-logo">
+<article class="container">
+    <header class="row">
+        <section class="col-md-6 title-logo">
             <img src="http://placekitten.com/g/90/90" class="img-responsive" alt="Logo Image">
-        </div>
-        <div class="col-md-6 text-right text-uppercase">
+        </section>
+        <section class="col-md-6 text-right text-uppercase">
             <h1 class="text-thin title-super">Jane Doette</h1>
             <h3 class="sub-title">Front-end Ninja</h3>
-        </div>
-    </div>
-    <hr class="divider">
-    <div class="row">
+        </section>
+    </header>
+    <section class="row">
+        <hr class="divider">
+    </section>
+    <article class="row">
         <img src="http://placekitten.com/g/1170/468" class="img-responsive" alt="Central image">
-    </div>
-    <div class="col-md-12">
-        <h2 class="text-muted text-bottom">Featured Work</h2>
-    </div>
-    <div class="row">
-        <div class="col-md-4">
+        <section class="col-md-12">
+            <h2 class="text-muted">Featured Work</h2>
+        </section>
+    </article>
+    <article class="row">
+        <section class="col-md-4 text-center">
             <img src="http://placekitten.com/g/383/218" class="fetured_img img-responsive" alt="appify image" data-toggle="modal" data-target="#project1">
-        </div>
-        <div class="col-md-4">
+            <h3 class="text-uppercase text-center{">Appify</h3>
+            <p>https://github.com/udacity/appify</p>
+        </section>
+        <section class="col-md-4 text-center">
             <img src="http://placekitten.com/g/383/218" class="fetured_img img-responsive" alt="sunflower image"
             data-toggle="modal" data-target="#project2">
-        </div>
-        <div class="col-md-4">
-            <img src="http://placekitten.com/g/383/218" class="fetured_img img-responsive" alt="bokeh image"
-            data-toggle="modal" data-target="#project3">
-        </div>
-    </div>
-    <div class="row text-center">
-        <div class="col-md-4">
-            <h3 class="text-uppercase">Appify</h3>
-            <p>https://github.com/udacity/appify</p>
-        </div>
-         <div class="col-md-4">
-            <h3 class="text-uppercase">Sunflower</h3>
+            <h3 class="text-uppercase text-center{">Sunflower</h3>
             <p>https://github.com/udacity/sunflower</p>
-        </div>
-         <div class="col-md-4">
-            <h3 class="text-uppercase">Bokeh</h3>
+        </section>
+        <section class="col-md-4 text-center">
+            <img src="http://placekitten.com/g/383/218" class="fetured_img img-responsive" alt="bokeh image" data-toggle="modal" data-target="#project3">
+            <h3 class="text-uppercase text-center{">Bokeh</h3>
             <p>https://github.com/udacity/bokeh</p>
-        </div>
-    </div>
-</div>
-
+        </section>
+    </acticle>
+</article>
 <!-- Modal -->
 <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -107,7 +96,9 @@
     </div>
   </div>
 </div>
-
-
+<script type="text/javascript" src="js/jquery-2.2.1.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<!--if IE-->
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 </body>
 </html>
