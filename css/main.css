@@ -88,15 +88,8 @@ video {
     margin-bottom: 15px;
     width: calc(100% - 15px);
 }
-.featured_img:last-of-type {
-    margin-right: 0;
-}
 
 .img-responsive {
   display: block;
   max-width: 100%;
-}
-
-.no-padding {
-    padding: 0;
 }
