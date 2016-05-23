@@ -76,18 +76,27 @@ video {
     margin-bottom: 35px;
 }
 
-.fetured_img {
+.main-img {
+    margin: auto;
+    width: 100%;
+}
+
+.featured_img {
     float: left;
-    margin-right: 20px;
+    /*margin-right: 20px;*/
     margin: auto;
     margin-bottom: 15px;
-    /*width: calc((100% - 20px)/3);*/
+    width: calc(100% - 15px);
 }
-.fetured_img:last-of-type {
+.featured_img:last-of-type {
     margin-right: 0;
 }
 
 .img-responsive {
   display: block;
   max-width: 100%;
+}
+
+.no-padding {
+    padding: 0;
 }
